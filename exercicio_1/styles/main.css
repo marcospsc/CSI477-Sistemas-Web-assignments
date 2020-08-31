@@ -2,20 +2,24 @@ body{
     background-color: #ccc;
 }
 .container {
-
+    
 }
 .form_content{
-
+    color: darkgreen;
+    background-color: darkmagenta;
 }
 
 .checkbox_form_content_label{
-
+    color: deeppink;
+    background-color: gold ;
 }
 
 label.form_style{
-    
+    background-color: lawngreen;
 }
 
 input.form_style{
+    background-color: greenyellow;
 
 }
+
