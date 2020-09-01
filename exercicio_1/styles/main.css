@@ -1,13 +1,62 @@
 body{
-    background-color: #ccc;
+    background-color: cornsilk;
 }
+
 .container {
 }
-.form_content > div > label{
 
+.form_content > div > input{
+    background-color: rgb(255, 176, 176);
+}
+
+.cabecalho{
+    font-size: 40px;
+    text-align: center;
+}
+
+.form_content_university{
+    border-style: solid;
+    background-color: khaki;
+}
+
+.form_content_university > div > input{
+    background-color: rgb(255, 176, 176);
+}
+
+.form_content_university.dados_universidade{
+    text-align: center;
+}
+
+.form_content_person{
+    border-style: solid;
+    background-color: darkkhaki;
+}
+
+.form_content_person > div > input{
+    background-color: rgb(255, 176, 176);
+}
+
+.form_content_person > div > div > input{
+    background-color: rgb(255, 176, 176);
+}
+
+.form_content_person.dados_aluno{
+    text-align: center;
 }
 
 .checkbox_form_content_label{
-    color: deeppink;
-    background-color: gold ;
+    border-style: solid;
+    background-color: darkseagreen;
+}
+
+.checkbox_form_content_label > div > input{
+    background-color: rgb(255, 176, 176);
+}
+
+.checkbox_form_content_label > div > div > input{
+    background-color: rgb(255, 176, 176);
+}
+
+.checkbox_form_content_label.area_de_interesse{
+    text-align: center;
 }
