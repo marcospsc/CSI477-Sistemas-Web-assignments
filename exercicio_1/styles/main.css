@@ -47,7 +47,11 @@ body{
 .checkbox_form_content_label{
     border-style: solid;
     background-color: darkseagreen;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 
 .checkbox_form_content_label > div > input{
     background-color: rgb(255, 176, 176);
@@ -55,6 +59,11 @@ body{
 
 .checkbox_form_content_label > div > div > input{
     background-color: rgb(255, 176, 176);
+}
+
+.radio_form_content_label{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .checkbox_form_content_label.area_de_interesse{
